@@ -18,6 +18,8 @@
 		5224023F2213F7E500B0EE3D /* DispatchQueue+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224023B2213F7E500B0EE3D /* DispatchQueue+Extention.swift */; };
 		522402432213FF0B00B0EE3D /* AsyncLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522402412213FF0B00B0EE3D /* AsyncLayer.swift */; };
 		522402442213FF0B00B0EE3D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522402422213FF0B00B0EE3D /* Transaction.swift */; };
+		52240246221408AC00B0EE3D /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52240245221408AC00B0EE3D /* AsyncImageView.swift */; };
+		52240248221408CA00B0EE3D /* AsyncLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52240247221408CA00B0EE3D /* AsyncLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		5224023B2213F7E500B0EE3D /* DispatchQueue+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Extention.swift"; sourceTree = "<group>"; };
 		522402412213FF0B00B0EE3D /* AsyncLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncLayer.swift; sourceTree = "<group>"; };
 		522402422213FF0B00B0EE3D /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		52240245221408AC00B0EE3D /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		52240247221408CA00B0EE3D /* AsyncLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 			children = (
 				522402252213F78800B0EE3D /* AppDelegate.swift */,
 				522402272213F78800B0EE3D /* ViewController.swift */,
+				52240245221408AC00B0EE3D /* AsyncImageView.swift */,
+				52240247221408CA00B0EE3D /* AsyncLabel.swift */,
 				522402402213FEEC00B0EE3D /* AsyncDrawingLayerEY */,
 				522402372213F7C900B0EE3D /* AsyncDrawingLayer */,
 				522402292213F78800B0EE3D /* Main.storyboard */,
@@ -174,6 +180,8 @@
 				522402442213FF0B00B0EE3D /* Transaction.swift in Sources */,
 				5224023D2213F7E500B0EE3D /* YYTransaction.swift in Sources */,
 				522402432213FF0B00B0EE3D /* AsyncLayer.swift in Sources */,
+				52240246221408AC00B0EE3D /* AsyncImageView.swift in Sources */,
+				52240248221408CA00B0EE3D /* AsyncLabel.swift in Sources */,
 				5224023E2213F7E500B0EE3D /* YYAsyncLayer.swift in Sources */,
 				5224023F2213F7E500B0EE3D /* DispatchQueue+Extention.swift in Sources */,
 				5224023C2213F7E500B0EE3D /* YYSentinel.swift in Sources */,
