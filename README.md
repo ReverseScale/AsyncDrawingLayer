@@ -7,9 +7,9 @@ Async Drawing Layer to handle complex view.
 TextKit + WebKit = CoreText -> Core Graphics
 
 CoreText 优势：
-● 内存更少，渲染速度快
-● 后台渲染 CFFrame
-● 排版干预
+* 内存更少，渲染速度快
+* 后台渲染 CFFrame
+* 排版干预
 
 调用顺序：
 CoreText -> CoreFoundation -> C Api
@@ -22,10 +22,10 @@ C Api：
 create/copy => CFRelease
 
 调用 CALayer -(void)drawRect: CGRect rect {} 方法：
-1.调用父类方法
-2.创建 context 上下文
-3.坐标反转
-4.绘制 path 路径
-5.设置 NSAttributesString 富文本内容
-6.Draw 方法绘制
-7.CFRelease释放
+* 1.调用父类方法
+* 2.创建 context 上下文
+* 3.坐标反转
+* 4.绘制 path 路径
+* 5.设置 NSAttributesString 富文本内容
+* 6.Draw 方法绘制
+* 7.CFRelease释放
